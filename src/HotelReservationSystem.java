@@ -211,4 +211,4 @@ public class HotelReservationSystem {
         }
     }
 
-
+    private static boolean reservationExists(Connection connection, int reservationId) {
