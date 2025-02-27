@@ -227,3 +227,6 @@ public class HotelReservationSystem {
     }
 
 
+    public static void exit() throws InterruptedException {
+        System.out.print("Exiting System");
+
