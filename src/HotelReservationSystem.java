@@ -12,4 +12,10 @@ public class HotelReservationSystem {
     private static final String username = "";
     private static final String password = "";
 
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        }catch (ClassNotFoundException e){
+            System.out.println(e.getMessage());
+        }
 
